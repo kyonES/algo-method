@@ -1,14 +1,12 @@
-# 文字列の全探索1
-# https://algo-method.com/tasks/226
-S = input()
-c = input()
-N = len(S)
-
-ans = False
-for i in range(N):
-    if S[i] == c:
-        ans = True
-if ans:
-    print('Yes')
-else:
-    print('No')
+# 数字の全探索5
+# https://algo-method.com/tasks/225
+N = int(input())
+for i in range(1, N+1):
+    if i % 15 == 0:
+        print('FizzBuzz')
+    elif i % 5 == 0:
+        print('Buzz')
+    elif i % 3 == 0:
+        print('Fizz')
+    else:
+        print(i)
