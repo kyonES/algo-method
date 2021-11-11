@@ -1,5 +1,5 @@
-# Q3-4. ナップサック問題
-# https://algo-method.com/tasks/342
+# Q3-1. 部分和問題 (導入編)
+# https://algo-method.com/tasks/336
 N, M = map(int, input().split())
 A = list(map(int, input().split()))
 # N*Mの配列
